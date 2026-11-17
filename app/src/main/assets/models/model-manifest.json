@@ -1,0 +1,270 @@
+{
+  "model": "onnx-community/depth-anything-v2-small",
+  "sha256": "afb6a5c28f3b6bf1618c6e43f02073ef9dfdc70e937502d51603e57b0a1df10c",
+  "input": "pixel_values NCHW RGB float32",
+  "resize": "preserve aspect, minimal scaling to 518 then round to 14",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "stereoLayout": "SideBySide",
+  "strength": 0.012,
+  "outputs": [
+    {
+      "id": "photo-01",
+      "depthMin": 0.0,
+      "depthMax": 6.222644329071045,
+      "eyeDifferenceMean": 8.257584394290124,
+      "size": [
+        960,
+        720
+      ]
+    },
+    {
+      "id": "photo-02",
+      "depthMin": 0.0,
+      "depthMax": 5.779204368591309,
+      "eyeDifferenceMean": 23.864465060763887,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-03",
+      "depthMin": 0.0,
+      "depthMax": 5.923875331878662,
+      "eyeDifferenceMean": 5.520793728298611,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-04",
+      "depthMin": 0.0,
+      "depthMax": 6.903372287750244,
+      "eyeDifferenceMean": 14.149822530864197,
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "id": "photo-05",
+      "depthMin": 0.5538183450698853,
+      "depthMax": 4.399500370025635,
+      "eyeDifferenceMean": 6.157833116319445,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-06",
+      "depthMin": 0.0,
+      "depthMax": 5.636222839355469,
+      "eyeDifferenceMean": 7.608645290798611,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-07",
+      "depthMin": 0.0,
+      "depthMax": 7.017447471618652,
+      "eyeDifferenceMean": 13.487874848327266,
+      "size": [
+        960,
+        641
+      ]
+    },
+    {
+      "id": "photo-08",
+      "depthMin": 0.0,
+      "depthMax": 7.916973114013672,
+      "eyeDifferenceMean": 6.2059394290123455,
+      "size": [
+        960,
+        540
+      ]
+    },
+    {
+      "id": "photo-09",
+      "depthMin": 0.0,
+      "depthMax": 5.603337287902832,
+      "eyeDifferenceMean": 9.1242529296875,
+      "size": [
+        640,
+        960
+      ]
+    },
+    {
+      "id": "photo-10",
+      "depthMin": 0.0,
+      "depthMax": 10.249000549316406,
+      "eyeDifferenceMean": 11.620565200617284,
+      "size": [
+        720,
+        960
+      ]
+    },
+    {
+      "id": "photo-11",
+      "depthMin": 0.0,
+      "depthMax": 8.485708236694336,
+      "eyeDifferenceMean": 10.145575629340279,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-12",
+      "depthMin": 0.0,
+      "depthMax": 4.132372856140137,
+      "eyeDifferenceMean": 3.913104926215278,
+      "size": [
+        768,
+        960
+      ]
+    },
+    {
+      "id": "photo-13",
+      "depthMin": 0.0,
+      "depthMax": 8.536707878112793,
+      "eyeDifferenceMean": 11.303837890625,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-14",
+      "depthMin": 0.0,
+      "depthMax": 8.532137870788574,
+      "eyeDifferenceMean": 17.955691068672838,
+      "size": [
+        960,
+        720
+      ]
+    },
+    {
+      "id": "photo-15",
+      "depthMin": 0.0,
+      "depthMax": 10.1961088180542,
+      "eyeDifferenceMean": 19.872942165798612,
+      "size": [
+        640,
+        960
+      ]
+    },
+    {
+      "id": "photo-16",
+      "depthMin": 0.0,
+      "depthMax": 8.240410804748535,
+      "eyeDifferenceMean": 9.493262803819444,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-17",
+      "depthMin": 0.0,
+      "depthMax": 8.962871551513672,
+      "eyeDifferenceMean": 7.391891276041667,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-18",
+      "depthMin": 0.0,
+      "depthMax": 10.378889083862305,
+      "eyeDifferenceMean": 10.618555230034723,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-19",
+      "depthMin": 0.0,
+      "depthMax": 9.375429153442383,
+      "eyeDifferenceMean": 12.086227816358024,
+      "size": [
+        960,
+        720
+      ]
+    },
+    {
+      "id": "photo-20",
+      "depthMin": 0.0,
+      "depthMax": 9.27549934387207,
+      "eyeDifferenceMean": 7.804983381971466,
+      "size": [
+        960,
+        514
+      ]
+    },
+    {
+      "id": "photo-21",
+      "depthMin": 0.0,
+      "depthMax": 9.979887008666992,
+      "eyeDifferenceMean": 9.207271050347222,
+      "size": [
+        640,
+        960
+      ]
+    },
+    {
+      "id": "photo-22",
+      "depthMin": 0.0,
+      "depthMax": 8.194857597351074,
+      "eyeDifferenceMean": 8.665909288194445,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-23",
+      "depthMin": 0.0,
+      "depthMax": 8.21274185180664,
+      "eyeDifferenceMean": 22.097422960069444,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-24",
+      "depthMin": 0.0,
+      "depthMax": 9.596077919006348,
+      "eyeDifferenceMean": 9.72299533420139,
+      "size": [
+        960,
+        640
+      ]
+    },
+    {
+      "id": "photo-25",
+      "depthMin": 0.0,
+      "depthMax": 5.6895623207092285,
+      "eyeDifferenceMean": 10.561467013888889,
+      "size": [
+        960,
+        640
+      ]
+    }
+  ]
+}
